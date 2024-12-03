@@ -1,0 +1,1 @@
+gzip filtered_vcfs/*.vcf
