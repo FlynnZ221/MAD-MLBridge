@@ -83,23 +83,7 @@ We aim to:
 3. Enhance explainability for clinical insights
 4. Develop more sophisticated feature integration methods
 
-## Citation
-
-If you use this work, please cite:
-```
-Golovanevsky, M., Eickhoff, C. and Singh, R., 2022. Multimodal attention-based deep 
-learning for Alzheimer's disease diagnosis. Journal of the American Medical 
-Informatics Association, 29(12), pp.2014-2022.
-```
 
 ## Authors
 - Yanice (Yixuan) Yin
 - Wanxing Zhang
-
-## License
-
-[Add appropriate license information]
-
-## Acknowledgments
-
-[Add acknowledgments for ADNI and other data providers]
