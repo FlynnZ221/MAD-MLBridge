@@ -1,6 +1,6 @@
 # MAD-MLBridge: Multimodal Alzheimer's Disease Diagnosis
 
-MAD-MLBridge is a novel multimodal deep learning framework that integrates genetic, clinical, and imaging data to enhance Alzheimer's Disease (AD) diagnosis. The framework bridges deep learning feature extraction with traditional machine learning classification to achieve superior diagnostic performance.
+MAD-MLBridge is a novel multimodal deep learning framework that integrates genetic, clinical, and imaging data to enhance Alzheimer's Disease (AD) diagnosis. The framework bridges deep learning feature extraction with traditional machine learning classification to achieve superior diagnostic performance. 
 
 ## Overview
 
@@ -87,3 +87,8 @@ We aim to:
 ## Authors
 - Yanice (Yixuan) Yin
 - Wanxing Zhang
+
+## Reference
+Golovanevsky, M., Eickhoff, C. and Singh, R., 2022. Multimodal attention-based deep learning for Alzheimer’s disease diagnosis. Journal of the American Medical Informatics Association, 29(12), pp.2014-2022.
+
+https://github.com/rsinghlab/MADDi
