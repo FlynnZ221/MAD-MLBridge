@@ -63,6 +63,28 @@ MAD-MLBridge achieves state-of-the-art performance compared to existing methods:
 | Venugopalan et al, 2021 | MRI, SNP, clinical | 78% | 78% | DL + RF |
 | Fang et al, 2020 | MRI, PET | 66.29% | Not reported | GDCA |
 
+Comparing Uni-Model v.s. Multi-Model Performance:
+
+| Model            | Modality       | Accuracy | Recall | Precision | F1-score |
+|-------------------|----------------|----------|--------|-----------|----------|
+| SNP - Baseline    | SNP            | 59.2%    | 59.4%  | 59.0%     | 58.4%    |
+| SNP - DeepSNP     | SNP            | 60.8%    | 60.9%  | 60.6%     | 60.7%    |
+| Clinical          | Clinical       | 79.7%    | 80.2%  | 80.4%     | 80.1%    |
+| Image             | Imaging (MRI)  | 69.04%   | 53.0%  | 55.0%     | 51.0%    |
+
+Comparing across all Multi-Model Performance:
+
+| Model                  | Modality                          | Accuracy | Recall | Precision | F1-score |
+|------------------------|------------------------------------|----------|--------|-----------|----------|
+| Multi - Baseline       | Clinical, SNP, Imaging            | 82.0%    | 85.0%  | 74.0%     | 77.0%    |
+| Multi - Extra Concat Layer | Clinical, SNP, Imaging        | 85.7%    | 88.0%  | 86.0%     | 86.0%    |
+| Multi - Img - GoogleNet | Clinical, SNP, Imaging           | 85.7%    | 87.0%  | 86.0%     | 86.0%    |
+| Multi - Img - ResNet    | Clinical, SNP, Imaging           | 86.0%    | 86.0%  | 76.0%     | 81.0%    |
+| Multi - RF             | Clinical, SNP, Imaging            | 91.0%    | 91.0%  | 91.0%     | 91.0%    |
+| Multi - LR             | Clinical, SNP, Imaging            | 89.0%    | 89.0%  | 79.0%     | 83.0%    |
+| Multi - SVM            | Clinical, SNP, Imaging            | 89.0%    | 89.0%  | 79.0%     | 83.0%    |
+| Multi - XGBoost        | Clinical, SNP, Imaging            | 86.0%    | 86.0%  | 76.0%     | 81.0%    |
+
 ## Project Structure
 
 ```
